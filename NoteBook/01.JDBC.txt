@@ -1,0 +1,15 @@
+1.加载驱动
+2.获得连接
+3.基本操作
+4.释放资源
+
+用到的其他命令
+ 
+netstat -an | grep 3306  查看3306端口
+ 
+ 
+sudo ufw enable 允许防火墙
+ 
+sudo ufw disable 禁止防火墙
+
+ufw allow 80 允许外部访问80端口

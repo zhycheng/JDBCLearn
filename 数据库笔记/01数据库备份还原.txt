@@ -1,0 +1,6 @@
+mysqldump 备份数据库
+mysqldump -u root -p 数据库名字 >存储位置
+mysql -u root -p 数据库名字 <sql文件
+
+第二种还原方式
+source命令
