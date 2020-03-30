@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+  <default-config>
+    <property name="driverClass">com.mysql.jdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:mysql://192.168.1.7:3306/web_test3</property>
+    <property name="user">test</property>
+  	<property name="password">zhycheng</property>
+  </default-config>
+
+  <!-- This app is massive! -->
+  <named-config name="oracle"> 
+   	<property name="driverClass">com.mysql.jdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:mysql://192.168.1.7:3306/web_test3</property>
+    <property name="user">test</property>
+  	<property name="password">zhycheng</property>
+  </named-config>
+</c3p0-config>
